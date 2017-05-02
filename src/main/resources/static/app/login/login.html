@@ -1,0 +1,14 @@
+<div>
+    <form name="myForm">
+        <label>
+            User name:
+            <input type="text" name="username" ng-model="user.name" required>
+        </label>
+        <label>
+            <input type="password" name="password" ng-model="user.password"
+                   ng-minlength="3" ng-maxlength="10">
+        </label>
+        <button ng-click="login()">
+        </button>
+    </form>
+</div>
